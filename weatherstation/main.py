@@ -17,8 +17,6 @@ def main():
     number_of_measurements = MAIN_SETTINGS["number_of_measurements"]
     main_id = 1
     break_time = MAIN_SETTINGS["break_time"]
-    clear_table(TEMPORARYTABLES)
-    clear_table([Measurements])
     while True:
         id = 0
         for _ in range(number_of_measurements):
