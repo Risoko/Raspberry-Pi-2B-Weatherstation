@@ -1,0 +1,21 @@
+SETTING_TEMPERATURE_HUMIDITY_SENSOR = {
+    'PIN' : 21
+}
+
+SETTING_PRESSURE_ALTITUDE_SENSOR = {
+    'BUS' : 3
+}
+
+SETTING_PRECIPTION_SENSOR = {
+    'PIN' : 20,
+    'number_check' : 10
+}
+
+SETTING_LIQUID_LVL_SENSOR = {
+    "BUS" : 4,
+     "ANALOG" : 0x41
+}
+
+SETTING_PHOTORESISTOR_SENSOR = {
+    'PIN' : 4
+}
